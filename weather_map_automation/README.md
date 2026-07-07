@@ -6,11 +6,20 @@
 ./weather_map_automation/run_daily_weather_map.sh
 ```
 
+生成未来 15 天游标热力表：
+
+```bash
+./weather_map_automation/run_15day_weather_heatmap.sh
+```
+
 输出目录：
 
 - `daily_us_weather_maps/us_weather_map_YYYY-MM-DD.png`
 - `daily_us_weather_maps/latest_us_weather_map.png`
 - `daily_us_weather_maps/weather_data_YYYY-MM-DD.json`
+- `daily_us_weather_maps/us_weather_15day_heatmap_YYYY-MM-DD.png`
+- `daily_us_weather_maps/latest_us_weather_15day_heatmap.png`
+- `daily_us_weather_maps/weather_15day_data_YYYY-MM-DD.json`
 
 ## 钉钉机器人配置
 
@@ -58,4 +67,5 @@ cp weather_map_automation/github_pages_config.example.json weather_map_automatio
 
 ```bash
 ./weather_map_automation/run_daily_weather_map.sh --upload-github-pages --send-dingtalk
+./weather_map_automation/run_15day_weather_heatmap.sh --upload-github-pages --send-dingtalk
 ```
