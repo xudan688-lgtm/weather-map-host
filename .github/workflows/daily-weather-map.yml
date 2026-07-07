@@ -2,7 +2,7 @@ name: Daily US Weather Map
 
 on:
   schedule:
-    - cron: "30 1 * * *"
+   - cron: "50 0 * * *"
   workflow_dispatch:
 
 permissions:
