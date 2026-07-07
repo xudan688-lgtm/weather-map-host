@@ -328,7 +328,7 @@ def render_heatmap(records: list[dict], dates: list[str], date_str: str, output_
         group_start += group_h
 
     footer_y = y0 + table_h + 28
-    draw.text((72, footer_y), "示意图：用于展示版式效果；正式版接入实时天气API，每天自动生成真实15天预测数据。", font=FONTS[18], fill=COLORS["muted"])
+    draw.text((72, footer_y), "说明：数据来自 Open-Meteo Forecast API；每州选1个代表城市，显示未来15天最高温预测。", font=FONTS[18], fill=COLORS["muted"])
     footer_items = [
         (COLORS["extreme"], "极端高温（≥40°C）"),
         (COLORS["hot"], "高温炎热（30-39°C）"),
