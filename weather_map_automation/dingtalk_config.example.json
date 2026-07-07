@@ -1,0 +1,8 @@
+{
+  "webhook": "https://oapi.dingtalk.com/robot/send?access_token=YOUR_ACCESS_TOKEN",
+  "secret": "SECxxxxxxxxxxxxxxxxxxxxxxxx",
+  "image_base_url": "",
+  "image_url": "",
+  "at_mobiles": [],
+  "is_at_all": false
+}
