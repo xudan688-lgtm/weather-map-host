@@ -1,0 +1,8 @@
+{
+  "owner": "YOUR_GITHUB_USERNAME",
+  "repo": "weather-map-host",
+  "branch": "main",
+  "pages_base_url": "https://YOUR_GITHUB_USERNAME.github.io/weather-map-host/",
+  "remote_dir": "daily_us_weather_maps",
+  "token": "github_pat_xxx"
+}
