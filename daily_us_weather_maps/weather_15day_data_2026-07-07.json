@@ -17,9 +17,9 @@
     "2026-07-20",
     "2026-07-21"
   ],
-  "generated_at": "2026-07-07T22:06:43+08:00",
+  "generated_at": "2026-07-07T22:32:35+08:00",
   "timezone": "Asia/Shanghai",
-  "data_status": "fresh",
+  "data_status": "cached:2026-07-07",
   "weather_source": "Open-Meteo Forecast API",
   "records": [
     {
