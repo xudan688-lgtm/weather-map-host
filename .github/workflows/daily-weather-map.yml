@@ -39,5 +39,6 @@ jobs:
           GITHUB_PAGES_BRANCH: main
           GITHUB_PAGES_BASE_URL: https://xudan688-lgtm.github.io/weather-map-host/
           GITHUB_PAGES_TOKEN: ${{ github.token }}
-        run: |
-          python weather_map_automation/generate_us_weather_map.py --upload-github-pages --send-dingtalk
+              run: |
+                python weather_map_automation/generate_us_weather_map.py --upload-github-pages --send-dingtalk
+                python weather_map_automation/generate_us_15day_heatmap.py --upload-github-pages --send-dingtalk
